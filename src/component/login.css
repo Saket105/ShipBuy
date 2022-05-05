@@ -24,7 +24,7 @@
 }
 
 .left-container > img {
-  width: 400px;
+  width: 350px;
   height: 400px;
   position: relative;
   right: 5rem;
@@ -40,8 +40,8 @@
 }
 
 .right-container > img {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 450px;
   position: relative;
   left: 5rem;
 }
@@ -88,7 +88,9 @@ form {
 
 input {
   width: 350px;
-  padding: 8px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 15px;
   margin-top: 25px;
   margin-right: 5px;
   margin-left: 5px;
@@ -98,6 +100,7 @@ input {
   border: none;
   border-bottom: 2px solid black;
   letter-spacing: 2.5px;
+  line-height: 0;
   font-size: 0.8rem;
   font-family: "Merriweather", serif;
 }
@@ -118,11 +121,11 @@ span {
   border: none;
   border-radius: 8px;
   font-family: "Merriweather", serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  background: #00ff9c;
+  background: #00bfa6;
   margin: 25px auto;
-  box-shadow: 1.5px 2px 2.5px 0.5px rgba(38, 37, 37, 0.331);
+  box-shadow: 6px 3px 4px rgba(53, 53, 53, 0.363);
   cursor: pointer;
 }
 

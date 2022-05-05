@@ -17,7 +17,9 @@ const Login = () => {
           <input type="text" placeholder="Enter UserId/Email" />
           <input type="password" placeholder="Enter Password" />
           <span>Having trouble in sign in ?</span>
-          <button className="btn" type="submit">Sign in</button>
+          <button className="btn" type="submit">
+            Sign in
+          </button>
         </form>
       </div>
       <div className="right-container">
