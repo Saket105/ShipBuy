@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oleo+Script&family=PT+Sans+Narrow&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(35deg, #ede574, #e1f5c4);
+}
+
+.left-container {
+  width: 50%;
+  height: 100vh;
+  float: left;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container > img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  right: 5rem;
+}
+
+.right-container {
+  width: 50%;
+  height: 100vh;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container > img {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  left: 5rem;
+}
+
+.center {
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.center > h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Oleo Script", cursive;
+}
+
+.center > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  padding: 3px;
+  font-family: "Merriweather", serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+input {
+  width: 350px;
+  padding: 8px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 2px solid black;
+  letter-spacing: 2.5px;
+  font-size: 0.8rem;
+  font-family: "Merriweather", serif;
+}
+
+span {
+  display: block;
+  font-family: "Merriweather", serif;
+  position: relative;
+  right: 60px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #00ff9c;
+  margin: 25px auto;
+  box-shadow: 1.5px 2px 2.5px 0.5px rgba(38, 37, 37, 0.331);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(to left, #b6fdd3, #12fad3, #33d7fc);
+}
