@@ -10,7 +10,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: linear-gradient(35deg, #ede574, #e1f5c4);
+  /* background: linear-gradient(35deg, #adadac, #e1f5c4); */
 }
 
 .left-container {
@@ -58,7 +58,7 @@
   border-radius: 20px;
   box-sizing: border-box;
   border: none;
-  box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+  box-shadow: 2px 5px 10px 10px rgba(45, 55, 68, 0.2);
 }
 
 .center > h1 {
