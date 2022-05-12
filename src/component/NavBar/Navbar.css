@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  /* background-color: rgb(54, 52, 52); */
+  width: 100vw;
+  height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  padding: 5px;
+  margin: 15px;
+}
+
+.links-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-left {
+  font-size: large;
+}
+
+.links-left > NavLink {
+  text-decoration: none;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-left: 3px;
+  font-size: 1rem;
+  font-family: "Merriweather", serif;
+}
+
+.links-right {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  font-size: large;
+}
+
+.links-right > NavLink {
+  text-decoration: none;
+}

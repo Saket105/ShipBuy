@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  background: url(../../assets/images/home-bg-1.jpg);
+}
+
+img {
+  width: 100vw;
+  height: 80vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  object-fit: contain;
+}

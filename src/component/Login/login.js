@@ -5,11 +5,11 @@ import "./login.css";
 
 const Login = () => {
   return (
-    <div className="main-container">
-      <div className="left-container">
+    <div className="login-main-container">
+      <div className="login-left-container">
         <img src={logoRight} alt="" />
       </div>
-      <div className="center">
+      <div className="login-center">
         <h1>Login Here</h1>
         <p>Hey, Enter your details to get sign in to your account</p>
 
@@ -30,7 +30,7 @@ const Login = () => {
           </button>
         </form>
       </div>
-      <div className="right-container">
+      <div className="login-right-container">
         <img src={logoLeft} alt="" />
       </div>
     </div>

@@ -4,8 +4,8 @@ import "./Register.css";
 
 const Register = () => {
   return (
-    <div className="main">
-      <div className="left">
+    <div className="register-main">
+      <div className="reg-left">
         <div className="Register-container">
           <h1>Register With Us</h1>
           <form className="register-form">
@@ -42,7 +42,7 @@ const Register = () => {
           </form>
         </div>
       </div>
-      <div className="right">
+      <div className="reg-right">
         <img src={registerOne} alt="" />
       </div>
     </div>

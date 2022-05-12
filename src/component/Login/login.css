@@ -5,15 +5,15 @@
   padding: 0;
 }
 
-.main-container {
+.login-main-container {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   margin: 0;
   padding: 0;
-  /* background: linear-gradient(35deg, #adadac, #e1f5c4); */
+  background: linear-gradient(35deg, #adadac, #e1f5c4);
 }
 
-.left-container {
+.login-left-container {
   width: 50%;
   height: 100vh;
   float: left;
@@ -23,14 +23,14 @@
   align-items: center;
 }
 
-.left-container > img {
+.login-left-container > img {
   width: 350px;
   height: 400px;
   position: relative;
   right: 5rem;
 }
 
-.right-container {
+.login-right-container {
   width: 50%;
   height: 100vh;
   float: right;
@@ -39,19 +39,19 @@
   align-items: center;
 }
 
-.right-container > img {
+.login-right-container > img {
   width: 400px;
   height: 450px;
   position: relative;
   left: 5rem;
 }
 
-.center {
+.login-center {
   background-color: #ffffff;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   overflow: hidden;
   width: 400px;
   height: 500px;
@@ -61,14 +61,14 @@
   box-shadow: 2px 5px 10px 10px rgba(45, 55, 68, 0.2);
 }
 
-.center > h1 {
+.login-center > h1 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   font-family: "Oleo Script", cursive;
 }
 
-.center > p {
+.login-center > p {
   display: flex;
   justify-content: center;
   align-items: center;
