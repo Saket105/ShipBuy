@@ -6,6 +6,8 @@ import Register from "./component/Register/Register";
 import NavBar from "./component/NavBar/Navbar";
 import PreNavbar from "./component/PreNavbar/PreNavbar";
 
+
+
 function App() {
   return (
     <div>
@@ -16,6 +18,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
       </Routes>
+      
     </div>
   );
 }

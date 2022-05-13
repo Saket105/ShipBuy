@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oleo+Script&family=PT+Sans+Narrow&family=Sacramento&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,6 @@
 
 .img-container {
   background: url(../../assets/images/home-bg-1.jpg);
-  
 }
 
 img {
@@ -14,4 +15,14 @@ img {
   box-sizing: border-box;
   overflow: hidden;
   object-fit: contain;
+}
+
+hr {
+  margin: 40px auto;
+  width: 17%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(255, 200, 0);
+  border-width: 10px;
+  height: 0;
 }

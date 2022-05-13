@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oleo+Script&family=PT+Sans+Narrow&family=Sacramento&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 .navbar {
-  /* background-color: rgb(54, 52, 52); */
   width: 100vw;
   height: 30px;
   color: #ffffff;
@@ -26,24 +27,74 @@
 
 .links-left > a {
   text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.links-left > a:hover {
+  background-color: rgba(242, 21, 21, 0.806);
+  color: white;
+  border-radius: 5px;
 }
 
 .input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1.8px solid rgb(12, 248, 201);
   outline: none;
   padding-left: 3px;
   font-size: 1rem;
   font-family: "Merriweather", serif;
+  color: rgb(255, 0, 0);
 }
+
+/* ::placeholder {
+  color: rgba(255, 111, 0, 0.836);
+} */
 
 .links-right {
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
   font-size: large;
+  float: right;
 }
 
 .links-right > a {
   text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.links-right > a:hover {
+  background-color: rgba(242, 21, 21, 0.806);
+  color: white;
+  border-radius: 5px;
+}
+
+.searchbox {
+  position: relative;
+  left: 2.5vmax;
+}
+
+.searchbox > input {
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+  width: 15vmax;
+  font-size: 1.1vmax;
+  outline: none;
+  color: rgb(61, 61, 61);
+  font-weight: 100;
+  font-family: "Merriweather", serif;
+}
+
+.searchbox > svg {
+  fill: rgb(61, 61, 61);
 }
