@@ -5,7 +5,7 @@ import Heading from "../Heading/Heading";
 import Offers from "../Offers/Offers";
 
 function Home() {
-  fetch("htpp");
+  
   return (
     <div>
       <div className="home">
