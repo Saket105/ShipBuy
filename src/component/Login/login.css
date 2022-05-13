@@ -15,7 +15,7 @@
 
 .login-left-container {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   float: left;
   /* background-color: brown; */
   display: flex;
@@ -32,7 +32,7 @@
 
 .login-right-container {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   float: right;
   display: flex;
   justify-content: center;
@@ -54,7 +54,7 @@
   transform: translate(-50%, -40%);
   overflow: hidden;
   width: 400px;
-  height: 500px;
+  height: 420px;
   border-radius: 20px;
   box-sizing: border-box;
   border: none;
@@ -116,12 +116,12 @@ span {
 }
 
 .btn {
-  width: 150px;
-  height: 40px;
+  width: 120px;
+  height: 35px;
   border: none;
   border-radius: 8px;
   font-family: "Merriweather", serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   background: #00bfa6;
   margin: 30px auto;

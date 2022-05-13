@@ -7,7 +7,7 @@
 
 .register-main {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   margin: 0;
   padding: 0;
   /* background: linear-gradient(to left, rgba(240, 215, 215, 0.774), #ffe47a); */
@@ -15,7 +15,7 @@
 
 .reg-right {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   float: right;
 }
 
@@ -23,9 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 650px;
-  height: 600px;
-  margin-top: 5rem;
+  width: 500px;
+  height: 500px;
+  margin-top: 3rem;
   position: relative;
   /* left: 4rem; */
   padding: 5px;
@@ -33,7 +33,7 @@
 
 .reg-left {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   float: left;
 }
 
@@ -42,10 +42,8 @@
   height: 500px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 17px;
-  margin: 5rem auto;
-  backdrop-filter: blur(0);
+  margin: 2rem auto;
   border: 2px solid transparent;
-  background-clip: padding-box;
   box-shadow: 5px 5px 10px 10px rgba(45, 55, 68, 0.25);
   box-sizing: border-box;
 }
