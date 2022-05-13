@@ -24,7 +24,7 @@
   font-size: large;
 }
 
-.links-left > NavLink {
+.links-left > a {
   text-decoration: none;
 }
 
@@ -44,6 +44,6 @@
   font-size: large;
 }
 
-.links-right > NavLink {
+.links-right > a {
   text-decoration: none;
 }
